@@ -1,0 +1,89 @@
+body {
+    font-family: 'Questrial', sans-serif;
+    background: url("https://loremflickr.com/1900/1200/himalaya");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+.bbg {
+  position: absolute;
+  z-index: -2;
+  /*background: rgba(0, 0 ,9, 0.8);*/
+  background: rgba(0, 4 ,40, .75);
+  background: -webkit-linear-gradient(left, rgba(0, 78 ,146, .7), rgba(0, 4 ,40, .75));
+  background: -o-linear-gradient(left, rgba(0, 78 ,146, .7), rgba(0, 4 ,40, .75));
+  background: linear-gradient(to right, rgba(0, 78 ,146, .7), rgba(0, 4 ,40, .75));
+  left: 0;right: 0;top: 0;bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+span.b4 {
+  font-size: 9em;
+}
+
+.err-box {
+  color: #FFF;
+  text-align: center;
+  padding: 2em;
+  margin: 0 auto;
+  /*position: absolute;*/
+  width: auto;
+  background: rgba(5, 5 ,5, 0.6);
+  border-radius: 2em;
+  margin-top: 10%;
+  max-width: 680px;
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.3);
+}
+
+.err-box .logo {
+  max-width: 6em;
+  margin-left: .2em;
+  margin-right: .2em;
+}
+
+.err-box form {
+  padding: 1em 2em;
+}
+
+.err-box form input {
+  text-align: center;
+  font-size: .82em;
+  padding: .4em;
+  background: none;
+  color: #fff;
+  height: 4em;
+  width: 90%;
+  border: .2em solid #eee;
+  border-radius: 2em;
+}
+
+.err-box form button {
+  background: white;
+  border: none;
+  display: block;
+  margin: .5em auto;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  border-radius: 2em;
+  width: 90%;
+  max-width: 240px;
+  font-size: .91em;
+  box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14),0 3px 14px 2px rgba(0,0,0,0.12),0 5px 5px -3px rgba(0,0,0,0.3);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.err-box form button:hover {
+  background: black;
+  color: #fff;
+  border: .14em solid white;
+}
+
+.err-box a#goHome{
+  font-size: 1.5em;
+  color: #ffb300;
+}
